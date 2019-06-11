@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3d1ce34-69d6-4b13-b7fc-d9aa771f6b7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/nginx_forbidden.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf.d/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf.d/access_static.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf.d/blockips.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf.d/blockips_dynamic.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf.d/blockips_static.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf.d/cache_purge.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf.d/cloudflare.realip.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf.d/in_http_block.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/laravel_server_demo.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fastcgi.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fastcgi_params" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/koi-utf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/koi-win" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/abTestByIP.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/cache_purge.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/config.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/content.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/module/common/helper.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/module/resty/iputils.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/on_access.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/on_deny.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/on_init.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/rewrite_dorriswedding_htm.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/rewrite_dorriswedding_html.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/rewrite_image.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/rewrite_robots.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lua/test/test.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mime.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nginx.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nginx.conf.default" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxy_params" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scgi_params" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites-available/default.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snippets/fastcgi-php.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snippets/snakeoil.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi_params" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/win-utf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites-enabled/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nginx_forbidden.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,15 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="80">
-                <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites-enabled/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,6 +55,7 @@
         <option value="$PROJECT_DIR$/nginx.conf" />
         <option value="$PROJECT_DIR$/demo/laravel_server_demo.conf" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/sites-enabled/.gitignore" />
       </list>
     </option>
   </component>
@@ -139,6 +95,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="nginx_template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nginx_forbidden" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nginx_template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites-enabled" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,12 +237,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495697684904</updated>
-      <workItem from="1560239692719" duration="881000" />
+      <workItem from="1560239692719" duration="1050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="881000" />
+    <option name="totallyTimeSpent" value="1050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -622,10 +592,18 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="80">
-            <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+            <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites-enabled/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
